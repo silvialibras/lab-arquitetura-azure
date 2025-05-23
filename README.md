@@ -2,7 +2,7 @@
 # Laboratório de componentes de arquitetura.
 
 ## 📌 Sobre este Repositório
-Repositório criado como desafio de projeto para a plataforma DIO, contendo materiais de estudo para a certificação Microsoft AZ-900, com foco especial em:
+Repositório criado como desafio de projeto para a plataforma DIO, contendo os passo a passo de execução dos componentes da Microsoft AZ-900, com foco especial em:
 - **Arquitetura de regiões Azure**
 - **Zonas de disponibilidade**
 - **Organização de recursos na nuvem**
