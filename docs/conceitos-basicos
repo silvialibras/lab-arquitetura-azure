@@ -1,0 +1,32 @@
+# 📚 Fundamentos do Azure (AZ-900)
+
+**Principais conceitos:**
+- Cloud Computing: Serviços sob demanda via internet (IaaS, PaaS, SaaS)
+- Benefícios Azure: Escalabilidade, pay-as-you-go, +60 regiões globais
+- Modelo de responsabilidade compartilhada: O que é gerenciado por você vs Microsoft
+
+
+# ⚙️ Modelos de serviços - IaaS vs PaaS vs SaaS
+
+| Tipo       | Controle do Usuário   | Exemplo Azure       | Custo |
+|------------|-----------------------|---------------------|-------|
+| **IaaS**   | OS, aplicações        | Azure VMs           | Alto  |
+| **PaaS**   | Apenas aplicações     | Azure SQL DB        | Médio |
+| **SaaS**   | Nenhum                | Microsoft 365       | Baixo |
+
+**Use quando:**
+- IaaS: Migração "lift-and-shift"
+- PaaS: Desenvolvimento ágil com autoscaling
+
+# 🌍 Regiões e Zonas de Disponibilidade
+
+**Regiões Azure:**
+- Cada região = 3+ datacenters interconectados
+- **Brasil Sul (São Paulo)**: Única região completa no Brasil
+- Pares de região: Centro dos EUA é par do Brasil Sul para DR
+
+**Zonas de Disponibilidade:**
+- DCs independentes com energia/resfriamento separados
+- SLA de 99.99% para VMs em múltiplas zonas
+
+⚠️ Dados sensíveis: LGPD pode exigir restrição geográfica
