@@ -1,0 +1,92 @@
+# 📚 Azure AZ-900: Serviços de Computação e Máquinas Virtuais
+
+## 📌 Resumo dos Conceitos Adquiridos
+
+# ☁️ Módulo 2: Computação em Nuvem e Redes - Resumo para Certificação Azure
+
+## 📦 Contêineres e Aplicativos de Contêiner
+
+- **Contêiner**: Executa aplicações de forma isolada sem precisar gerenciar o sistema operacional.
+- **Modelo PaaS** (Plataforma como Serviço): Não requer gestão de sistema operacional.
+- **Aplicativos de Contêiner no Azure**:
+- Oferecem **balanceamento de carga** e **escalabilidade automática**.
+- Ideais para soluções de **microserviços**.
+- Palavras-chave de prova: *escalabilidade*, *balanceamento de carga*, *contenção leve*.
+
+## ⚙️ Orquestração com Kubernetes (AKS)
+
+- **Azure Kubernetes Service (AKS)**:
+- Faz a **orquestração** dos contêineres.
+- Gerencia o **ciclo de vida**, escalabilidade e organização dos pods.
+- Modelo PaaS.
+- Útil para aplicações complexas e ambientes de produção.
+
+## 🧠 Azure Functions
+
+- Execução de código baseada em **eventos**.
+- Modelo **serverless** (sem servidor visível).
+- Ideal para tarefas rápidas ou que reagem a gatilhos como:
+- Webhooks
+- Cron jobs (temporizadores)
+- Fila de mensagens
+- Escala automática.
+- Também ofertado em **PaaS**.
+
+## 🖥️ Máquinas Virtuais (VMs)
+
+- Modelo **IaaS** (Infraestrutura como Serviço).
+- Utilizadas no modelo de **Lift and Shift** (migração direta).
+- Fornecem controle total do sistema operacional.
+- Boa opção para sistemas legados ou que ainda não foram modernizados.
+
+## 🧑‍💻 Área de Trabalho Virtual (AVD)
+
+- Simula o uso de um desktop com Windows, mas acessado via nuvem.
+- Multiusuário, com sessões isoladas.
+- Alta segurança para trabalho remoto.
+- Escalável e com gestão centralizada.
+
+## 🌐 Serviços de Aplicativo (App Services)
+
+- Ideal para hospedagem de aplicações web e APIs.
+- Suporte a linguagens: **.NET, .NET Core, Java, Ruby, Node.js, PHP, Python**.
+- Permite **deploy automatizado** com GitHub, DevOps, etc.
+- Modelo **PaaS**.
+- Possui **slots de implantação**: alternância entre versões em produção e testes.
+
+## 🌍 Redes Virtuais (VNet)
+
+- **Base da comunicação** entre recursos do Azure.
+- Suporte a sub-redes, IPs, rotas, filtragem de tráfego, etc.
+- **Isolamento** por padrão entre VNets diferentes.
+- Para comunicação entre VNets: usar **Emparelhamento (Peering)**.
+
+## 🔒 VPNs e ExpressRoute
+
+- **VPN Gateway**: conexão segura via internet entre o ambiente local e a nuvem.
+- **ExpressRoute**:
+  - Conexão privada, direta, por cabo.
+  - Menor latência, maior velocidade.
+  - Mais caro, ideal para grandes empresas.
+
+## 📛 DNS no Azure
+
+- Azure DNS: Serviço de **resolução de nomes**.
+- Permite uso de domínios personalizados e privados.
+- Tradução de nomes (ex: `site.com`) para IPs.
+- Fundamental para acesso a aplicações web de forma amigável.
+
+---
+
+✅ **Dicas para a prova**:
+- Saber o modelo de serviço: IaaS, PaaS ou SaaS.
+- Prestar atenção em palavras-chave como: *escala automática*, *eventos*, *isolamento*, *orquestração*.
+- Revisar as linguagens compatíveis com App Services.
+- Entender bem o conceito de Lift and Shift vs. modernização.
+
+---
+
+📚 **Estudos recomendados**:
+- Testar no portal do Azure a criação de VNets, VMs e App Services.
+- Explorar o Azure Functions com gatilhos do tipo HTTP e Timer.
+- Analisar cenários de quando usar AKS ou App Services.
