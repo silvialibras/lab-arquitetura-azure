@@ -1,0 +1,62 @@
+# 📚 Azure AI: Análise de Sentimentos com Language Studio
+
+## 📌 Visão Geral do Projeto
+Este repositório documenta minha experiência com o Azure AI Language Studio para análise de sentimentos em textos, parte do módulo sobre Inteligência de Documentos da formação AZ-900. 
+O projeto demonstra como extrair insights de feedbacks de clientes usando processamento de linguagem natural (NLP).
+
+## 🔍 Conceitos-Chave Aprendidos
+
+### **1. Inteligência de Documentos no Azure**
+- **OCR (Reconhecimento Óptico de Caracteres)**: Extração automática de dados estruturados de documentos como notas fiscais
+- **Modelos Pré-treinados**: Para documentos comuns (faturas, recibos) com campos padronizados
+- **Modelos Personalizáveis**: Adaptáveis a formatos específicos de empresas
+
+### **2. Análise de Sentimentos**
+- **Classificação Textual**:
+  - Positivo/Negativo/Neutro
+  - Detecção de opiniões específicas (ex: "serviço ruim" vs "atendimento excelente")
+- **Extração de Palavras-Chave**: Identificação automática de termos relevantes
+
+### **3. Serviços Relacionados**
+- **Azure Bot Service**: Chatbots inteligentes para atendimento automatizado
+- **Serviço de Fala**: Conversão texto-voz e voz-texto em 60+ idiomas
+- **LUIS (Language Understanding)**: Interpretação de comandos de voz naturais
+
+## 🛠️ Passo a Passo do Laboratório
+
+### **1. Configuração do Recurso de Linguagem**
+1. Acessei o [Portal Azure](https://portal.azure.com)
+2. Criei um recurso do tipo "Language Service" 
+3. Configurei o endpoint para acesso via API
+
+### **2. Análise de Feedbacks com Language Studio**
+1. **Cenário Simulado**: Análise de avaliações de hóteis
+2. **Entradas**:
+   ```text
+   "O serviço foi horrível. Quarto antigo, internet lenta e localização diferente do anunciado."
+   ```
+3. **Resultados Obtidos**:
+   - Sentimento: 96% Negativo
+   - Palavras-chave: "serviço horrível", "quarto antigo", "internet lenta"
+   - Opiniões segmentadas por aspecto do serviço
+
+### **3. Processamento de Documentos**
+- Testei com:
+  - Notas fiscais em PDF
+  - Comprovantes digitalizados (imagens JPG/PNG)
+- Limitação identificada: Arquivos >50MB requerem pré-processamento
+
+
+## 💡 Insights e Aprendizados
+1. **Eficiência**: Automatizei em minutos análises que levariam horas manualmente
+2. **Personalização**: Necessidade de treinar modelos para jargões específicos
+3. **Integração**: Possibilidade de conectar com Power BI para dashboards de NPS
+
+## 🔗 Links Úteis
+- [Documentação Oficial](https://learn.microsoft.com/pt-br/azure/cognitive-services/language-service/)
+- [Laboratório Interativo](https://language.cognitive.azure.com/)
+- [Calculadora de Custos](https://azure.microsoft.com/pricing/details/cognitive-services/language-services/)
+
+> **Dica para a AZ-900**: Lembre-se que o Language Studio é um serviço **PaaS** - você não gerencia infraestrutura, apenas consome a API!
+
+---
