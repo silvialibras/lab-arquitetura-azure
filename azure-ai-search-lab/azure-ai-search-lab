@@ -11,17 +11,17 @@ Aplicar técnicas de inteligência artificial para transformar documentos desest
 ## Fluxo de Trabalho
 
 ### 1. Ingestão de Dados
-- Coleta documentos de múltiplas fontes:
+  - Coleta documentos de múltiplas fontes:
   - Arquivos (PDFs, Word, Excel)
   - Bancos de dados
   - E-mails e formulários
-- Pré-processamento básico:
+  - Pré-processamento básico:
   - Extração de texto
   - Identificação de formatos
   - Normalização de conteúdo
 
 ### 2. Indexação Inteligente
-- Enriquecimento com habilidades cognitivas:
+  - Enriquecimento com habilidades cognitivas:
   - Reconhecimento de entidades (nomes, datas, locais)
   - Tradução automática
   - Análise de sentimentos
@@ -29,11 +29,11 @@ Aplicar técnicas de inteligência artificial para transformar documentos desest
 - Criação de metadados semânticos
 
 ### 3. Exploração de Dados
-- Recursos de pesquisa avançada:
+  - Recursos de pesquisa avançada:
   - Busca por sinônimos
   - Filtros contextuais
   - Visualização de relações
-- Geração de insights:
+  - Geração de insights:
   - Sumarização automática
   - Detecção de padrões
   - Análise temporal
@@ -76,10 +76,10 @@ Aplicar técnicas de inteligência artificial para transformar documentos desest
 1. **Ingestão**: Digitalização de contratos físicos + extração de texto  
 2. **Indexação**:  
    - Identificação automática de:  
-     - Partes contratantes  
-     - Datas de vigência  
-     - Valores financeiros  
-     - Cláusulas de confidencialidade  
+   - Partes contratantes  
+   - Datas de vigência  
+   - Valores financeiros  
+   - Cláusulas de confidencialidade  
 3. **Exploração**:  
    - Busca por: _"Cláusulas com multa superior a R$100 mil"_  
    - Visualização de relacionamentos entre contratos  
